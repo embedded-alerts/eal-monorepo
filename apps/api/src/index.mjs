@@ -1,0 +1,1 @@
+export function describeApi() { return { product: "embedded-alerts", purpose: "A low-latency alert pipeline for constrained devices: ingest small signals, enrich context, route incidents, and prove uptime.", routes: ['/healthz', '/api/config', '/api/events', '/api/leads', '/api/alerts'] }; }

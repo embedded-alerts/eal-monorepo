@@ -1,0 +1,19 @@
+[package]
+org = "embedded-alerts"
+name = "eal-monorepo"
+version = "0.1.0"
+description = "High-context development monorepo for Embedded Alerts"
+license = "MIT"
+language = "rust"
+
+[package.repository]
+vcs = "git"
+url = "https://github.com/embedded-alerts/eal-monorepo"
+
+[publish]
+include_readme = true
+tag_format = "v{version}"
+exclude = [".env", ".env.*", "node_modules/**", "target/**", "dist/**", "*.log"]
+
+[scripts]
+test = "bash scripts/test.sh"

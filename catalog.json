@@ -1,0 +1,52 @@
+{
+  "org": "embedded-alerts",
+  "brand": "Embedded Alerts",
+  "repos": {
+    "clients": "embedded-alerts/eal-clients",
+    "libs": "embedded-alerts/eal-libs",
+    "monorepo": "embedded-alerts/eal-monorepo",
+    "infra": "embedded-alerts/eal-infra",
+    "marketing": "embedded-alerts/embedded-alerts.github.io"
+  },
+  "apps": [
+    "api",
+    "web",
+    "ops-console",
+    "control-plane"
+  ],
+  "packages": [
+    "contracts",
+    "ui",
+    "testkit",
+    "catalog"
+  ],
+  "repositories": [
+    "eal-interfaces",
+    "eal-api",
+    "eal-web-mash",
+    "eal-web-leptos",
+    "eal-web-dioxus",
+    "eal-cli",
+    "eal-sync",
+    "eal-infra",
+    "eal-clients",
+    "eal-libs",
+    "embedded-alerts.github.io"
+  ],
+  "capabilities": [
+    "signals",
+    "subscriptions",
+    "vector-matching",
+    "events",
+    "alerts",
+    "audit"
+  ],
+  "integrations": [
+    "RSS/Atom",
+    "Webhooks",
+    "Email ingest",
+    "Slack",
+    "Search APIs",
+    "Vector databases"
+  ]
+}
