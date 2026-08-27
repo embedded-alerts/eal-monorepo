@@ -1,0 +1,4 @@
+[submodule "apps/eal-sidecar.rs"]
+	path = apps/eal-sidecar.rs
+	url = https://github.com/embedded-alerts/eal-sidecar.rs.git
+	branch = main
