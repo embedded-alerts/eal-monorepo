@@ -1,2 +1,2 @@
-# path	url	branch
-apps/eal-sidecar.rs	https://github.com/embedded-alerts/eal-sidecar.rs.git	main
+# path	classification
+apps/eal-sidecar.rs	workspace
